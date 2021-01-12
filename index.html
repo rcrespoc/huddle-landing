@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <link rel='preconnect' href='https://fonts.gstatic.com'>
+  <link href='https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&display=swap' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/b717240cbe.js" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='css/amc.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header py-2">
+    <article class="container flex">
+      <section class="header-logo">
+        <a href="#"><img src="images/logo.svg" alt="Logo Huddle"></a>
+      </section> <!-- HEADER LOGO -->
+      <section class="header-nav">
+        <a href="#" class="btn px-1">Try It Free</a>
+      </section> <!-- HEADER BOTON -->
+    </article>
+  </header> <!-- HEADER -->
+  <section class="hero-section py-4">
+    <article class="container">
+      <section class="hero-body text-center lh-1-5">
+        <article class="hero-body-title">
+          <h2 class="lh-2">Build The Community Your Fans Will Love</h2>
+        </article> <!-- TITLE -->
+        <article class="hero-body-text mt-1">
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
+          your audience. Create connections with your users as you engage in genuine discussion. </p>
+          <a href="#" class="btn btn-rosa px-2 mt-2 fw-bold">Get Started For Free</a>
+        </article>
+      </section> <!-- HERO BODY -->
+      <article class="hero-image mt-5">
+        <img src="images/screen-mockups.svg" alt="Hero Image">
+      </article> <!-- HERO IMAGE -->
+    </article>
+  </section> <!-- HERO SECTION -->
+
+  <main class="main-section">
+    <section class="stats-section">
+      <article class="container w-50 flex-md">
+        <aside class="stat-item">
+          <article class="stats-icon text-start w-20">
+            <img src="images/icon-communities.svg" alt="Community">
+          </article> <!-- ICON -->
+          <article class="stats-body text-center">
+            <p class="fw-bold">1.4k+</p>
+            <p class="opacity-5 mt-1">Communities Formed</p>
+          </article>
+        </aside> <!-- ITEM -->
+        <aside class="stat-item mt-4 mt-md-0">
+          <article class="stats-icon text-start w-20">
+            <img src="images/icon-messages.svg" alt="Messages">
+          </article> <!-- ICON -->
+          <article class="stats-body text-center">
+            <p class="fw-bold">2.7m+</p>
+            <p class="opacity-5 mt-1">Messages Sent</p>
+          </article>
+        </aside> <!-- ITEM -->
+      </article>
+    </section> <!-- STATS SECTION -->
+    <section class="features-section mt-6">
+      <article class="grow-together-section py-5 my-md-10">
+        <article class="container flex-md row-r-md">
+          <aside class="grow-together-image ml-md-1">
+            <img src="images/illustration-grow-together.svg" alt="Grow Together">
+          </aside> <!-- IMAGE -->
+          <aside class="grow-toegther-body text-center text-md-start lh-1-5 mt-5 mt-md-0">
+            <h3>Grow Together</h3>
+            <p class="mt-1">Generate meaningful discussions with your audience and build a strong, loyal community. 
+            Think of the insightful conversations you miss out on with a feedback form. </p>
+          </aside> <!-- BODY -->
+        </article>
+      </article> <!-- GROW TOGETHER -->
+      <article class="flowing-conversations py-5 mt-10">
+        <article class="container flex-md">
+          <aside class="flowing-conversation-image mr-md-2">
+            <img src="images/illustration-flowing-conversation.svg" alt="Flowing Conversarions">
+          </aside> <!-- IMAGE -->
+          <aside class="flowing-conversations-body text-center text-md-start lh-1-5 mt-5 mt-md-0">
+            <h3>Flowing Conversations</h3>
+            <p class="mt-1">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+            just-in-time loading for a more natural flow.</p>
+          </aside> <!-- BODY -->
+        </article>
+      </article> <!-- FLOWING CONVERSATIONS -->
+      <article class="your-users-section mt-10 py-4">
+        <article class="container flex-md row-r-md">
+          <aside class="your-users-image ml-md-1">
+            <img src="images/illustration-your-users.svg" alt="Your Users">
+          </aside> <!-- IMAGE -->
+          <aside class="your-users-body text-center text-md-start lh-1-5 mt-5 mt-md-0">
+            <h3>Your Users</h3>
+            <p class="mt-1">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+            once signed in to your app, your users can start chatting immediately.</p>
+          </aside> <!-- BODY -->
+        </article>
+      </article> <!-- YOUR USERS -->
+    </section> <!-- FEATURES SECTION -->
+    <section class="ready-to-build my-10">
+      <article class="container">
+        <article class="ready-to-build-body text-center">
+          <h2 class="lh-2">Ready To Build Your Community</h2>
+          <a href="#" class="btn btn-rosa mt-2 px-2-5 fw-bold">Get Started For Free</a>
+        </article>
+      </article>
+    </section> <!-- READY TO BUILD -->
+  </main> <!-- MAIN SECTION -->
+
+  <div class="main-footer flex-lg row-r-lg py-lg-6">
+    <section class="newsletter-section py-5">
+      <article class="container">
+        <article class="newsletter-body text-white-1">
+          <h3>NEWSLETTER</h3>
+          <p class="mt-1 lh-1-5">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+          send you spam or pass on your email address</p>
+          <aside class="form">
+            <form class="flex column mt-1 row-lg">
+              <input type="email" name="email" id="email">
+              <input type="submit" class="btn btn-rosa mt-1 mt-lg-0 w-50 fw-bold ml-lg-2" value="Subscribe">
+            </form>
+          </aside>
+        </article> <!-- BODY -->
+      </article>
+    </section> <!-- NEWSLETTER -->
+    <section class="footer py-2">
+      <article class="container">
+        <article class="footer-image w-70">
+          <img src="images/logo copy.svg" alt="Logo Footer">
+        </article> <!-- FOOTER LOGO -->
+        <article class="footer-body text-white-1 mt-1">
+          <p class="lh-1-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tenetur, facere quisquam ut praesentium pariatur!</p>
+          <article class="footer-body-contact mt-2">
+            <aside class="footer-body-contact-item flex">
+              <i class="fas fa-phone-volume"></i>
+              <p class="ml-1">Phone: +1-543-123-4567</p>
+            </aside>
+            <aside class="footer-body-contact-item flex mt-1">
+              <i class="fas fa-envelope"></i>
+              <p class="ml-1">example@company.com</p>
+            </aside>
+          </article> <!-- CONTACT -->
+          <article class="sociales w-50 flex mt-2">
+            <a href="#" class="text-white-1"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="ml-1 text-white-1"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="ml-1 text-white-1"><i class="fab fa-twitter-square"></i></a>
+          </article>
+        </article> <!-- FOOTER BODY -->
+      </article>
+    </section> <!-- FOOTER -->
+  </div>
+  <footer>
+    <p class="attribution py-1 text-white-1 bg-black-1 text-center">
+      Challenge by <a class="text-skyblue-1" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br>
+      Coded by <a class="text-skyblue-1" href="#">Richard Crespo</a>.
+    </p>
+  </footer>
+</body>
+</html>
